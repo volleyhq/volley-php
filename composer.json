@@ -1,0 +1,32 @@
+{
+    "name": "volleyhq/volley-php",
+    "description": "Official PHP SDK for the Volley API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volley",
+            "email": "support@volleyhooks.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volley\\": "src/Volley/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Volley\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
